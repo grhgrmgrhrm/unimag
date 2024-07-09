@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2b6fb1f-d8a9-4dd5-940e-59a4418912b5" name="Changes" comment="fix: delete unused code" />
+    <list default="true" id="a2b6fb1f-d8a9-4dd5-940e-59a4418912b5" name="Changes" comment="fix: delete unused code">
+      <change afterPath="$PROJECT_DIR$/src/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +75,7 @@
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
     &quot;npm.export.executor&quot;: &quot;Run&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\grhgrmgrhrm\\work\\github\\unimag\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -77,10 +84,11 @@
       <recent name="C:\Users\grhgrmgrhrm\work\github\unimag" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\grhgrmgrhrm\work\github\unimag\src" />
       <recent name="C:\Users\grhgrmgrhrm\work\github\unimag" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.export">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -101,16 +109,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="export" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="export" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,9 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.export" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
@@ -157,6 +154,7 @@
       <workItem from="1720420832792" duration="113000" />
       <workItem from="1720421007717" duration="246000" />
       <workItem from="1720421460385" duration="520000" />
+      <workItem from="1720510945956" duration="2505000" />
     </task>
     <task id="LOCAL-00001" summary="fix: remove unused files">
       <option name="closed" value="true" />

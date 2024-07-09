@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { Global, css } from '@emotion/react';
 import { lighten } from 'polished';
 
-import favicon from '../../src/favicon.ico';
+import favicon from '../../src/favicon.png';
 import { colors } from '../styles/colors';
 
 type IndexProps = {
@@ -15,7 +15,7 @@ function IndexLayout(props: IndexProps) {
   return (
     <div className={props.className}>
       <Helmet>
-        <link rel="icon" href={favicon} type="image/x-icon" />
+        <link rel="icon" href={favicon} type="image/png" />
       </Helmet>
       <Global
         styles={css`
